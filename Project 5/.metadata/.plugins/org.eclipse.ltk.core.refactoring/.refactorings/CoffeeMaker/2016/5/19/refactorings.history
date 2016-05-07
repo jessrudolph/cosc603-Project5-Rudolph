@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename method &apos;edu.towson.cis.cosc603.project5.coffeemaker.CoffeeMaker.ifRecipeIsNull(...)&apos; to &apos;canNotAddRecipe&apos;&#x0D;&#x0A;- Original project: &apos;CoffeeMaker&apos;&#x0D;&#x0A;- Original element: &apos;edu.towson.cis.cosc603.project5.coffeemaker.CoffeeMaker.ifRecipeIsNull(...)&apos;&#x0D;&#x0A;- Renamed element: &apos;edu.towson.cis.cosc603.project5.coffeemaker.CoffeeMaker.canNotAddRecipe(...)&apos;&#x0D;&#x0A;- Update references to refactored element" delegate="false" deprecate="false" description="Rename method &apos;ifRecipeIsNull&apos;" flags="589826" id="org.eclipse.jdt.ui.rename.method" input="/src&lt;edu.towson.cis.cosc603.project5.coffeemaker{CoffeeMaker.java[CoffeeMaker~ifRecipeIsNull~QRecipe;" name="canNotAddRecipe" references="true" stamp="1462636778519" version="1.0"/>
+</session>
