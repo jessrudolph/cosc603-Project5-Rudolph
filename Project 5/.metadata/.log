@@ -1938,3 +1938,12 @@ java.lang.ClassCastException: org.eclipse.ui.internal.ErrorEditorPart cannot be 
 
 !ENTRY com.instantiations.eclipse 1 0 2016-05-07 15:09:39.569
 !MESSAGE cannot support aboutToShutdown event - 2
+
+!ENTRY com.instantiations.common.core 2 0 2016-05-07 15:26:56.358
+!MESSAGE This version of CodePro Analytix and PlusPak was compiled for Eclipse 3.7 but is running on Eclipse 3.11.
+This version of CodePro AnalytiX was compiled for Eclipse 3.7 but is running on Eclipse 3.11.
+This version of EclipsePro Audit was compiled for Eclipse 3.7 but is running on Eclipse 3.11.
+This version of EclipsePro Test was compiled for Eclipse 3.7 but is running on Eclipse 3.11.
+This version of Code Coverage was compiled for Eclipse 3.7 but is running on Eclipse 3.11.
+This version of Shared was compiled for Eclipse 3.7 but is running on Eclipse 3.11.
+

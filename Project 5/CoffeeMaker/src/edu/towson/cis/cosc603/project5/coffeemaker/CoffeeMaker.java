@@ -101,18 +101,15 @@ public class CoffeeMaker {
         boolean canEditRecipe = false;
         for(int i = 0; i < NUM_RECIPES; i++) {
         	if(recipeArray[i].getName() != null) {
-	            if(newRecipe.equals(recipeArray[i])) { 
-	            	recipeArray[i] = new Recipe();
-	            	if(addRecipe(newRecipe)) {
+	            if(oldRecipe.equals(recipeArray[i])) { 
+	            	recipeArray[i] = newRecipe;
 	            		canEditRecipe = true;
-	            	} else {
-	            		canEditRecipe = false;
-	            	}
 	            }
         	}
         }
         return canEditRecipe;
     }
+      
     
     /**
      * Returns true if inventory was successfully added

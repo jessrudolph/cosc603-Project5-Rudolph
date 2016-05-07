@@ -11,6 +11,7 @@ import static org.junit.Assert.*;
  * @version $Revision: 1.0 $
  */
 public class InventoryTest {
+
 	/**
 	 * Run the Inventory() constructor test.
 	 *
@@ -31,6 +32,19 @@ public class InventoryTest {
 		assertEquals(15, result.getSugar());
 		assertEquals(15, result.getCoffee());
 		assertEquals(15, result.getMilk());
+	}
+	
+	
+	@Test
+	public void testInventory_2()
+		throws Exception {
+
+		Inventory result = new Inventory();
+		assertEquals("Coffee: 15\nMilk: 15\nSugar: 15\nChocolate: 15\n", result.toString());
+		assertEquals(15, result.getMilk());
+		assertEquals(15, result.getSugar());
+		assertEquals(15, result.getCoffee());
+		assertEquals(15, result.getChocolate());
 	}
 
 	/**
@@ -305,6 +319,8 @@ public class InventoryTest {
 		assertEquals("Coffee: 15\r\nMilk: 15\r\nSugar: 15\r\nChocolate: 15\r\n", result);
 	}
 
+		
+	
 	/**
 	 * Perform pre-test initialization.
 	 *
